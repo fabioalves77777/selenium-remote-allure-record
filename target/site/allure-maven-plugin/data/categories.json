@@ -1,0 +1,215 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 14,
+    "unknown" : 0,
+    "total" : 14
+  },
+  "time" : {
+    "minDuration" : 12671,
+    "maxDuration" : 63135,
+    "sumDuration" : 304868,
+    "start" : 1577800075401,
+    "stop" : 1577800380704,
+    "duration" : 305303
+  },
+  "children" : [ {
+    "uid" : "9280633b00c23a38",
+    "name" : "Testes aceitos",
+    "time" : {
+      "minDuration" : 12671,
+      "maxDuration" : 63135,
+      "sumDuration" : 304868,
+      "start" : 1577800075401,
+      "stop" : 1577800380704,
+      "duration" : 305303
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "f082eb86a613bf38",
+      "name" : "Without message",
+      "time" : {
+        "minDuration" : 12671,
+        "maxDuration" : 63135,
+        "sumDuration" : 304868,
+        "start" : 1577800075401,
+        "stop" : 1577800380704,
+        "duration" : 305303
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "d1572013b4ffa45b",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800092171,
+          "stop" : 1577800107651,
+          "duration" : 15480
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "44b745f3569c2b95",
+        "name" : "realizarCadastroUsuario",
+        "time" : {
+          "start" : 1577800107663,
+          "stop" : 1577800123744,
+          "duration" : 16081
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "77fa8790ef43b1f0",
+        "name" : "realizarLogin",
+        "time" : {
+          "start" : 1577800149805,
+          "stop" : 1577800164248,
+          "duration" : 14443
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "381f393741b370d6",
+        "name" : "validarLoginInvalido",
+        "time" : {
+          "start" : 1577800136444,
+          "stop" : 1577800149795,
+          "duration" : 13351
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ef6e5066190dff02",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800276745,
+          "stop" : 1577800298465,
+          "duration" : 21720
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9c2ddfbace1cc143",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800236090,
+          "stop" : 1577800256096,
+          "duration" : 20006
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d78bb06a258ffe78",
+        "name" : "adicionarNovaConta",
+        "time" : {
+          "start" : 1577800199756,
+          "stop" : 1577800236083,
+          "duration" : 36327
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "268332b7e56db35e",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800123760,
+          "stop" : 1577800136431,
+          "duration" : 12671
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c13e031d4d7c1950",
+        "name" : "realizarExclusaoConta",
+        "time" : {
+          "start" : 1577800317569,
+          "stop" : 1577800380704,
+          "duration" : 63135
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "215c078e3ff304e7",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800256104,
+          "stop" : 1577800276737,
+          "duration" : 20633
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ee14852db082c440",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800075401,
+          "stop" : 1577800091883,
+          "duration" : 16482
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "41c723bd55ab1f92",
+        "name" : "validarExclusaoContaEmUsoMovimentacoes",
+        "time" : {
+          "start" : 1577800298473,
+          "stop" : 1577800317561,
+          "duration" : 19088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b8195d016dd962d6",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800164287,
+          "stop" : 1577800181451,
+          "duration" : 17164
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "f78fac3e26d12d86",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800181459,
+          "stop" : 1577800199746,
+          "duration" : 18287
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

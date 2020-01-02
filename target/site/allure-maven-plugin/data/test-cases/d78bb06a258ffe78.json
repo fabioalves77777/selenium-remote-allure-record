@@ -1,0 +1,212 @@
+{
+  "uid" : "d78bb06a258ffe78",
+  "name" : "adicionarNovaConta",
+  "fullName" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta.adicionarNovaConta",
+  "historyId" : "914f7d3731c4f6c67c483446883597c1",
+  "time" : {
+    "start" : 1577800199756,
+    "stop" : 1577800236083,
+    "duration" : 36327
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a inclusão de uma nova conta",
+  "descriptionHtml" : "<p>Caso de teste para realizar a inclusão de uma nova conta</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800205169,
+        "stop" : 1577800207664,
+        "duration" : 2495
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed6b19d52998d7eb",
+        "name" : "Page screenshot",
+        "source" : "ed6b19d52998d7eb.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800207664,
+        "stop" : 1577800209676,
+        "duration" : 2012
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "accefdfa23af9224",
+        "name" : "Page screenshot",
+        "source" : "accefdfa23af9224.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Acessar a página de adicionar conta",
+      "time" : {
+        "start" : 1577800209676,
+        "stop" : 1577800211590,
+        "duration" : 1914
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49d98997216102aa",
+        "name" : "Page screenshot",
+        "source" : "49d98997216102aa.png",
+        "type" : "image/png",
+        "size" : 11082
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar a inclusão de uma nova conta",
+      "time" : {
+        "start" : 1577800211590,
+        "stop" : 1577800233375,
+        "duration" : 21785
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 7,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e880b7a6174b25c",
+        "name" : "Page screenshot",
+        "source" : "3e880b7a6174b25c.png",
+        "type" : "image/png",
+        "size" : 18578
+      }, {
+        "uid" : "f2baabba4efa10c0",
+        "name" : "Page screenshot",
+        "source" : "f2baabba4efa10c0.png",
+        "type" : "image/png",
+        "size" : 19522
+      }, {
+        "uid" : "ba71ba6d175b165",
+        "name" : "Page screenshot",
+        "source" : "ba71ba6d175b165.png",
+        "type" : "image/png",
+        "size" : 20605
+      }, {
+        "uid" : "cfab7bc6f4e7b514",
+        "name" : "Page screenshot",
+        "source" : "cfab7bc6f4e7b514.png",
+        "type" : "image/png",
+        "size" : 21630
+      }, {
+        "uid" : "8f37f69a4b38bfb4",
+        "name" : "Page screenshot",
+        "source" : "8f37f69a4b38bfb4.png",
+        "type" : "image/png",
+        "size" : 22793
+      }, {
+        "uid" : "22203a7a5d69a9df",
+        "name" : "Page screenshot",
+        "source" : "22203a7a5d69a9df.png",
+        "type" : "image/png",
+        "size" : 23842
+      }, {
+        "uid" : "2d8ebb47833a42bc",
+        "name" : "Page screenshot",
+        "source" : "2d8ebb47833a42bc.png",
+        "type" : "image/png",
+        "size" : 24995
+      } ],
+      "parameters" : [ {
+        "name" : "contas",
+        "value" : "[Água 20191231114959, Luz 20191231114959, Telefone 20191231114959, Internet 20191231114959, Cartão 20191231114959, Outros 20191231114959, Deletável 20191231114959]"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterconta"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta"
+  }, {
+    "name" : "testMethod",
+    "value" : "adicionarNovaConta"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Adicionar Conta"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Conta"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4b9d6656341adcd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798375033,
+          "stop" : 1577798412399,
+          "duration" : 37366
+        }
+      } ]
+    }
+  }
+}

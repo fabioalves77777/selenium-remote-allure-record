@@ -1,0 +1,199 @@
+{
+  "uid" : "9c2ddfbace1cc143",
+  "name" : "validarCamposObrigatorios",
+  "fullName" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AlterarConta_ValidarCamposObrigatorios.validarCamposObrigatorios",
+  "historyId" : "28e32c7f5a50d4d40d24a60ca86f7256",
+  "time" : {
+    "start" : 1577800236090,
+    "stop" : 1577800256096,
+    "duration" : 20006
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de campos obrigatórios",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de campos obrigatórios</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800241497,
+        "stop" : 1577800244047,
+        "duration" : 2550
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d15845d06c21e67",
+        "name" : "Page screenshot",
+        "source" : "3d15845d06c21e67.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800244048,
+        "stop" : 1577800246072,
+        "duration" : 2024
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b99318f8de1e19ff",
+        "name" : "Page screenshot",
+        "source" : "b99318f8de1e19ff.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Resetar as movimentações",
+      "time" : {
+        "start" : 1577800246073,
+        "stop" : 1577800247735,
+        "duration" : 1662
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51445cc7db050f24",
+        "name" : "Page screenshot",
+        "source" : "51445cc7db050f24.png",
+        "type" : "image/png",
+        "size" : 17546
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Acessar a página de listar contas criadas",
+      "time" : {
+        "start" : 1577800247736,
+        "stop" : 1577800249765,
+        "duration" : 2029
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "319b4c4c07877919",
+        "name" : "Page screenshot",
+        "source" : "319b4c4c07877919.png",
+        "type" : "image/png",
+        "size" : 14832
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar validação de campos obrigatórios",
+      "time" : {
+        "start" : 1577800251623,
+        "stop" : 1577800253308,
+        "duration" : 1685
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c931a2ec76a8d4b7",
+        "name" : "Page screenshot",
+        "source" : "c931a2ec76a8d4b7.png",
+        "type" : "image/png",
+        "size" : 13016
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ {
+      "uid" : "a8bac5197a59e949",
+      "name" : "Page screenshot",
+      "source" : "a8bac5197a59e949.png",
+      "type" : "image/png",
+      "size" : 11689
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterconta"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AlterarConta_ValidarCamposObrigatorios"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarCamposObrigatorios"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AlterarConta_ValidarCamposObrigatorios"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Alterar Conta - Validar Campos Obrigatórios"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Conta"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e5f549357026d5f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798412412,
+          "stop" : 1577798432150,
+          "duration" : 19738
+        }
+      } ]
+    }
+  }
+}

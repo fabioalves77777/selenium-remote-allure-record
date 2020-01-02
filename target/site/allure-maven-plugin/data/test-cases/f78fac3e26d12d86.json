@@ -1,0 +1,196 @@
+{
+  "uid" : "f78fac3e26d12d86",
+  "name" : "validarRegistroDuplicado",
+  "fullName" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarRegistroDuplicado.validarRegistroDuplicado",
+  "historyId" : "eafdaf03d374387a0df11c226fac2001",
+  "time" : {
+    "start" : 1577800181459,
+    "stop" : 1577800199746,
+    "duration" : 18287
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de registro duplicado",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de registro duplicado</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800186910,
+        "stop" : 1577800189362,
+        "duration" : 2452
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18e4ec37096b7543",
+        "name" : "Page screenshot",
+        "source" : "18e4ec37096b7543.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800189363,
+        "stop" : 1577800191372,
+        "duration" : 2009
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d93845ee7ae9eb0",
+        "name" : "Page screenshot",
+        "source" : "9d93845ee7ae9eb0.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Resetar as movimentações",
+      "time" : {
+        "start" : 1577800191372,
+        "stop" : 1577800193046,
+        "duration" : 1674
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2ae658eb71b2c70",
+        "name" : "Page screenshot",
+        "source" : "d2ae658eb71b2c70.png",
+        "type" : "image/png",
+        "size" : 17546
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Acessar a página de adicionar conta",
+      "time" : {
+        "start" : 1577800193046,
+        "stop" : 1577800194932,
+        "duration" : 1886
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee542d4f816e2d02",
+        "name" : "Page screenshot",
+        "source" : "ee542d4f816e2d02.png",
+        "type" : "image/png",
+        "size" : 11082
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar validação de registro duplicado",
+      "time" : {
+        "start" : 1577800194932,
+        "stop" : 1577800196718,
+        "duration" : 1786
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a71ceaf1fe1616e",
+        "name" : "Page screenshot",
+        "source" : "a71ceaf1fe1616e.png",
+        "type" : "image/png",
+        "size" : 13417
+      } ],
+      "parameters" : [ {
+        "name" : "nome",
+        "value" : "Conta para movimentacoes"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterconta"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarRegistroDuplicado"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarRegistroDuplicado"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarRegistroDuplicado"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Adicionar Conta - Validar Registro Duplicado"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Conta"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5df6a4fda2db067a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798356125,
+          "stop" : 1577798375016,
+          "duration" : 18891
+        }
+      } ]
+    }
+  }
+}

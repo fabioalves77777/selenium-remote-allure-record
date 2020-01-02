@@ -1,0 +1,156 @@
+{
+  "uid" : "d1572013b4ffa45b",
+  "name" : "validarRegistroDuplicado",
+  "fullName" : "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_ValidarRegistroDuplicado.validarRegistroDuplicado",
+  "historyId" : "4823229fd49fb33dca0b758638030309",
+  "time" : {
+    "start" : 1577800092171,
+    "stop" : 1577800107651,
+    "duration" : 15480
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de registro duplicado",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de registro duplicado</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800098152,
+        "stop" : 1577800100632,
+        "duration" : 2480
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "837db64735fba283",
+        "name" : "Page screenshot",
+        "source" : "837db64735fba283.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Acessar a página de cadastrar novo usuário",
+      "time" : {
+        "start" : 1577800100632,
+        "stop" : 1577800102240,
+        "duration" : 1608
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cedb75274db8e8e",
+        "name" : "Page screenshot",
+        "source" : "cedb75274db8e8e.png",
+        "type" : "image/png",
+        "size" : 15209
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar validação de registro duplicado",
+      "time" : {
+        "start" : 1577800102240,
+        "stop" : 1577800104706,
+        "duration" : 2466
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "613dfefb3e9944b8",
+        "name" : "Page screenshot",
+        "source" : "613dfefb3e9944b8.png",
+        "type" : "image/png",
+        "size" : 17637
+      } ],
+      "parameters" : [ {
+        "name" : "nome",
+        "value" : "Fabio Alves"
+      }, {
+        "name" : "email",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.mantercadastro"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_ValidarRegistroDuplicado"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarRegistroDuplicado"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_ValidarRegistroDuplicado"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Validar Registro Duplicado"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Cadastro"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "29b7b8b4bacf8da7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577797942522,
+          "stop" : 1577797957243,
+          "duration" : 14721
+        }
+      } ]
+    }
+  }
+}

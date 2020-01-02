@@ -1,0 +1,173 @@
+{
+  "uid" : "b8195d016dd962d6",
+  "name" : "validarCamposObrigatorios",
+  "fullName" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarCamposObrigatorios.validarCamposObrigatorios",
+  "historyId" : "8dd160ebaaa5d46a11a161fbca560f33",
+  "time" : {
+    "start" : 1577800164287,
+    "stop" : 1577800181451,
+    "duration" : 17164
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de campos obrigatórios",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de campos obrigatórios</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800170252,
+        "stop" : 1577800172781,
+        "duration" : 2529
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3ed41ae3b41f60b",
+        "name" : "Page screenshot",
+        "source" : "b3ed41ae3b41f60b.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800172781,
+        "stop" : 1577800174891,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f624528ee2357067",
+        "name" : "Page screenshot",
+        "source" : "f624528ee2357067.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Acessar a página de adicionar conta",
+      "time" : {
+        "start" : 1577800174892,
+        "stop" : 1577800176898,
+        "duration" : 2006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a3ca81e13f7b60c",
+        "name" : "Page screenshot",
+        "source" : "8a3ca81e13f7b60c.png",
+        "type" : "image/png",
+        "size" : 11082
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar validação de campos obrigatórios",
+      "time" : {
+        "start" : 1577800176898,
+        "stop" : 1577800178510,
+        "duration" : 1612
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a992ceec94833d5b",
+        "name" : "Page screenshot",
+        "source" : "a992ceec94833d5b.png",
+        "type" : "image/png",
+        "size" : 13016
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterconta"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarCamposObrigatorios"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarCamposObrigatorios"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_AdicionarConta_ValidarCamposObrigatorios"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Adicionar Conta - Validar Campos Obrigatórios"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Conta"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a93cb4b89db40d22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798336902,
+          "stop" : 1577798355868,
+          "duration" : 18966
+        }
+      } ]
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "uid" : "77fa8790ef43b1f0",
+  "name" : "realizarLogin",
+  "fullName" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_RealizarLogin.realizarLogin",
+  "historyId" : "a152b68e972850829b763df02391ad3b",
+  "time" : {
+    "start" : 1577800149805,
+    "stop" : 1577800164248,
+    "duration" : 14443
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar o login no sistema",
+  "descriptionHtml" : "<p>Caso de teste para realizar o login no sistema</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800155272,
+        "stop" : 1577800157868,
+        "duration" : 2596
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "713c46a1db335656",
+        "name" : "Page screenshot",
+        "source" : "713c46a1db335656.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800157868,
+        "stop" : 1577800159954,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dfbfc150fc7ba40c",
+        "name" : "Page screenshot",
+        "source" : "dfbfc150fc7ba40c.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Verificar se o usuário foi autenticado com sucesso",
+      "time" : {
+        "start" : 1577800159955,
+        "stop" : 1577800161247,
+        "duration" : 1292
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90daa25272aa567c",
+        "name" : "Page screenshot",
+        "source" : "90daa25272aa567c.png",
+        "type" : "image/png",
+        "size" : 17793
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterlogin"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_RealizarLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "realizarLogin"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_RealizarLogin"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Realizar Login"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1f5ee471dd713356",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798202394,
+          "stop" : 1577798217226,
+          "duration" : 14832
+        }
+      } ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "uid" : "381f393741b370d6",
+  "name" : "validarLoginInvalido",
+  "fullName" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_ValidarLoginInvalido.validarLoginInvalido",
+  "historyId" : "34432f494e4d6ff974ae63e507cc3f51",
+  "time" : {
+    "start" : 1577800136444,
+    "stop" : 1577800149795,
+    "duration" : 13351
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de login inválido",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de login inválido</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800142426,
+        "stop" : 1577800144897,
+        "duration" : 2471
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57a3c910f48cfba1",
+        "name" : "Page screenshot",
+        "source" : "57a3c910f48cfba1.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "realizar validação de login inválido",
+      "time" : {
+        "start" : 1577800144898,
+        "stop" : 1577800146729,
+        "duration" : 1831
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58e56406439228c4",
+        "name" : "Page screenshot",
+        "source" : "58e56406439228c4.png",
+        "type" : "image/png",
+        "size" : 16057
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "logininvalido@logininvalido.com"
+      }, {
+        "name" : "senha",
+        "value" : "logininvalido"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterlogin"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_ValidarLoginInvalido"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarLoginInvalido"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterlogin.CT_ManterLogin_ValidarLoginInvalido"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Validar login inválido"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c5bab6e10e862bce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798189666,
+          "stop" : 1577798202383,
+          "duration" : 12717
+        }
+      } ]
+    }
+  }
+}

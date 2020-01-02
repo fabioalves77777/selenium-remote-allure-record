@@ -1,0 +1,530 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 14,
+    "unknown" : 0,
+    "total" : 14
+  },
+  "time" : {
+    "minDuration" : 12671,
+    "maxDuration" : 63135,
+    "sumDuration" : 304868,
+    "start" : 1577800075401,
+    "stop" : 1577800380704,
+    "duration" : 305303
+  },
+  "children" : [ {
+    "uid" : "14fdb6f48568c2d2",
+    "name" : "Manter Cadastro",
+    "time" : {
+      "minDuration" : 15480,
+      "maxDuration" : 16482,
+      "sumDuration" : 48043,
+      "start" : 1577800075401,
+      "stop" : 1577800123744,
+      "duration" : 48343
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "ce2a6ece3f6d4263",
+      "name" : "Validar Registro Duplicado",
+      "time" : {
+        "minDuration" : 15480,
+        "maxDuration" : 15480,
+        "sumDuration" : 15480,
+        "start" : 1577800092171,
+        "stop" : 1577800107651,
+        "duration" : 15480
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "d1572013b4ffa45b",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800092171,
+          "stop" : 1577800107651,
+          "duration" : 15480
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "53be85600324d442",
+      "name" : "Cadastrar Usuário",
+      "time" : {
+        "minDuration" : 16081,
+        "maxDuration" : 16081,
+        "sumDuration" : 16081,
+        "start" : 1577800107663,
+        "stop" : 1577800123744,
+        "duration" : 16081
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "44b745f3569c2b95",
+        "name" : "realizarCadastroUsuario",
+        "time" : {
+          "start" : 1577800107663,
+          "stop" : 1577800123744,
+          "duration" : 16081
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "e230ee29843c0a4f",
+      "name" : "Validar Campos Obrigatórios",
+      "time" : {
+        "minDuration" : 16482,
+        "maxDuration" : 16482,
+        "sumDuration" : 16482,
+        "start" : 1577800075401,
+        "stop" : 1577800091883,
+        "duration" : 16482
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "ee14852db082c440",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800075401,
+          "stop" : 1577800091883,
+          "duration" : 16482
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "e688d463e762134a",
+    "name" : "Manter Login",
+    "time" : {
+      "minDuration" : 12671,
+      "maxDuration" : 14443,
+      "sumDuration" : 40465,
+      "start" : 1577800123760,
+      "stop" : 1577800164248,
+      "duration" : 40488
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "422c09e14dbbce8f",
+      "name" : "Realizar Login",
+      "time" : {
+        "minDuration" : 14443,
+        "maxDuration" : 14443,
+        "sumDuration" : 14443,
+        "start" : 1577800149805,
+        "stop" : 1577800164248,
+        "duration" : 14443
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "77fa8790ef43b1f0",
+        "name" : "realizarLogin",
+        "time" : {
+          "start" : 1577800149805,
+          "stop" : 1577800164248,
+          "duration" : 14443
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "f34a54022e0523b2",
+      "name" : "Validar login inválido",
+      "time" : {
+        "minDuration" : 13351,
+        "maxDuration" : 13351,
+        "sumDuration" : 13351,
+        "start" : 1577800136444,
+        "stop" : 1577800149795,
+        "duration" : 13351
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "381f393741b370d6",
+        "name" : "validarLoginInvalido",
+        "time" : {
+          "start" : 1577800136444,
+          "stop" : 1577800149795,
+          "duration" : 13351
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "924d17ccf5a7d2d2",
+      "name" : "Validar Campos Obrigatórios",
+      "time" : {
+        "minDuration" : 12671,
+        "maxDuration" : 12671,
+        "sumDuration" : 12671,
+        "start" : 1577800123760,
+        "stop" : 1577800136431,
+        "duration" : 12671
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "268332b7e56db35e",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800123760,
+          "stop" : 1577800136431,
+          "duration" : 12671
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "18f833a50e82ae9c",
+    "name" : "Manter Conta",
+    "time" : {
+      "minDuration" : 17164,
+      "maxDuration" : 63135,
+      "sumDuration" : 216360,
+      "start" : 1577800164287,
+      "stop" : 1577800380704,
+      "duration" : 216417
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "63ee2a84e94d5802",
+      "name" : "Alterar Conta",
+      "time" : {
+        "minDuration" : 21720,
+        "maxDuration" : 21720,
+        "sumDuration" : 21720,
+        "start" : 1577800276745,
+        "stop" : 1577800298465,
+        "duration" : 21720
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "ef6e5066190dff02",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800276745,
+          "stop" : 1577800298465,
+          "duration" : 21720
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "2d9bf089cf7c47e1",
+      "name" : "Alterar Conta - Validar Campos Obrigatórios",
+      "time" : {
+        "minDuration" : 20006,
+        "maxDuration" : 20006,
+        "sumDuration" : 20006,
+        "start" : 1577800236090,
+        "stop" : 1577800256096,
+        "duration" : 20006
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "9c2ddfbace1cc143",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800236090,
+          "stop" : 1577800256096,
+          "duration" : 20006
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "4cfe0861c80069db",
+      "name" : "Adicionar Conta",
+      "time" : {
+        "minDuration" : 36327,
+        "maxDuration" : 36327,
+        "sumDuration" : 36327,
+        "start" : 1577800199756,
+        "stop" : 1577800236083,
+        "duration" : 36327
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "d78bb06a258ffe78",
+        "name" : "adicionarNovaConta",
+        "time" : {
+          "start" : 1577800199756,
+          "stop" : 1577800236083,
+          "duration" : 36327
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "d6afec0346faef5e",
+      "name" : "Excluir Conta",
+      "time" : {
+        "minDuration" : 63135,
+        "maxDuration" : 63135,
+        "sumDuration" : 63135,
+        "start" : 1577800317569,
+        "stop" : 1577800380704,
+        "duration" : 63135
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "c13e031d4d7c1950",
+        "name" : "realizarExclusaoConta",
+        "time" : {
+          "start" : 1577800317569,
+          "stop" : 1577800380704,
+          "duration" : 63135
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "4701a429b2ce04c0",
+      "name" : "Alterar Conta - Validar Registro Duplicado",
+      "time" : {
+        "minDuration" : 20633,
+        "maxDuration" : 20633,
+        "sumDuration" : 20633,
+        "start" : 1577800256104,
+        "stop" : 1577800276737,
+        "duration" : 20633
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "215c078e3ff304e7",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800256104,
+          "stop" : 1577800276737,
+          "duration" : 20633
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "863a23d653378bdb",
+      "name" : "Excluir Conta - Validar Exclusão de Conta com Movimentações",
+      "time" : {
+        "minDuration" : 19088,
+        "maxDuration" : 19088,
+        "sumDuration" : 19088,
+        "start" : 1577800298473,
+        "stop" : 1577800317561,
+        "duration" : 19088
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "41c723bd55ab1f92",
+        "name" : "validarExclusaoContaEmUsoMovimentacoes",
+        "time" : {
+          "start" : 1577800298473,
+          "stop" : 1577800317561,
+          "duration" : 19088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "a72b9b5688ad8013",
+      "name" : "Adicionar Conta - Validar Campos Obrigatórios",
+      "time" : {
+        "minDuration" : 17164,
+        "maxDuration" : 17164,
+        "sumDuration" : 17164,
+        "start" : 1577800164287,
+        "stop" : 1577800181451,
+        "duration" : 17164
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "b8195d016dd962d6",
+        "name" : "validarCamposObrigatorios",
+        "time" : {
+          "start" : 1577800164287,
+          "stop" : 1577800181451,
+          "duration" : 17164
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "7ea7613cf83292cd",
+      "name" : "Adicionar Conta - Validar Registro Duplicado",
+      "time" : {
+        "minDuration" : 18287,
+        "maxDuration" : 18287,
+        "sumDuration" : 18287,
+        "start" : 1577800181459,
+        "stop" : 1577800199746,
+        "duration" : 18287
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f78fac3e26d12d86",
+        "name" : "validarRegistroDuplicado",
+        "time" : {
+          "start" : 1577800181459,
+          "stop" : 1577800199746,
+          "duration" : 18287
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

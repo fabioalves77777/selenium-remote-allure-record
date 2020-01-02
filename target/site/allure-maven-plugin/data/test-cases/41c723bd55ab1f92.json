@@ -1,0 +1,193 @@
+{
+  "uid" : "41c723bd55ab1f92",
+  "name" : "validarExclusaoContaEmUsoMovimentacoes",
+  "fullName" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_ExcluirConta_ValidarContaComMovimentacao.validarExclusaoContaEmUsoMovimentacoes",
+  "historyId" : "ee9543a77040ed3dabb554973379411",
+  "time" : {
+    "start" : 1577800298473,
+    "stop" : 1577800317561,
+    "duration" : 19088
+  },
+  "status" : "passed",
+  "description" : "Caso de teste para realizar a validação de exclusão de conta com movimentações",
+  "descriptionHtml" : "<p>Caso de teste para realizar a validação de exclusão de conta com movimentações</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Acessar a página de login",
+      "time" : {
+        "start" : 1577800304422,
+        "stop" : 1577800306931,
+        "duration" : 2509
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf8886ec56788d33",
+        "name" : "Page screenshot",
+        "source" : "bf8886ec56788d33.png",
+        "type" : "image/png",
+        "size" : 13530
+      } ],
+      "parameters" : [ {
+        "name" : "ambiente",
+        "value" : "LOCAL"
+      } ]
+    }, {
+      "name" : "Realizar login no sistema",
+      "time" : {
+        "start" : 1577800306931,
+        "stop" : 1577800308941,
+        "duration" : 2010
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec91fd9193982640",
+        "name" : "Page screenshot",
+        "source" : "ec91fd9193982640.png",
+        "type" : "image/png",
+        "size" : 15785
+      } ],
+      "parameters" : [ {
+        "name" : "usuario",
+        "value" : "fabioaraujo.alves@email.com"
+      }, {
+        "name" : "senha",
+        "value" : "123456"
+      } ]
+    }, {
+      "name" : "Resetar as movimentações",
+      "time" : {
+        "start" : 1577800308942,
+        "stop" : 1577800310616,
+        "duration" : 1674
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "770059104084909e",
+        "name" : "Page screenshot",
+        "source" : "770059104084909e.png",
+        "type" : "image/png",
+        "size" : 17546
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Acessar a página de listar contas criadas",
+      "time" : {
+        "start" : 1577800310616,
+        "stop" : 1577800312631,
+        "duration" : 2015
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7db8eec238734671",
+        "name" : "Page screenshot",
+        "source" : "7db8eec238734671.png",
+        "type" : "image/png",
+        "size" : 14832
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "realizar validação de exclusão de conta com movimentações",
+      "time" : {
+        "start" : 1577800312631,
+        "stop" : 1577800314681,
+        "duration" : 2050
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43fbe449f0a2fe98",
+        "name" : "Page screenshot",
+        "source" : "43fbe449f0a2fe98.png",
+        "type" : "image/png",
+        "size" : 17435
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "br.com.nameproject.scenario.manterconta"
+  }, {
+    "name" : "testClass",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_ExcluirConta_ValidarContaComMovimentacao"
+  }, {
+    "name" : "testMethod",
+    "value" : "validarExclusaoContaEmUsoMovimentacoes"
+  }, {
+    "name" : "suite",
+    "value" : "br.com.nameproject.scenario.manterconta.CT_ManterConta_ExcluirConta_ValidarContaComMovimentacao"
+  }, {
+    "name" : "host",
+    "value" : "BSBDSK318"
+  }, {
+    "name" : "thread",
+    "value" : "16700@BSBDSK318.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Excluir Conta - Validar Exclusão de Conta com Movimentações"
+  }, {
+    "name" : "feature",
+    "value" : "Manter Conta"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Testes aceitos",
+      "matchedStatuses" : [ "passed" ]
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c72e268e8809ada1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577798475045,
+          "stop" : 1577798494217,
+          "duration" : 19172
+        }
+      } ]
+    }
+  }
+}
